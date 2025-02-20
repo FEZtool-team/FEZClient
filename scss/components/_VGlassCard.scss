@@ -1,0 +1,25 @@
+.f-glass-card {
+  background-color: #16161634 !important;
+  backdrop-filter: blur(50px);
+  border: solid 1px rgb(var(--v-theme-primary)) !important;
+}
+.v-theme--dark .f-glass-card {
+  background-color: #16161634 !important;
+  backdrop-filter: blur(50px);
+  border: solid 1px rgb(var(--v-theme-primary)) !important;
+}
+
+.f-glass-tp-card {
+  background-color: #16161600 !important;
+  // backdrop-filter: blur(50px);
+  border: solid 1px rgb(var(--v-theme-primary)) !important;
+}
+.v-theme--dark .f-glass-tp-card {
+  background-color: #16161600 !important;
+  // backdrop-filter: blur(50px);
+  border: solid 1px rgb(var(--v-theme-primary)) !important;
+}
+
+.glass-card.border-white {
+  border: solid 1px rgb(255, 255, 255, 0.8) !important;
+}

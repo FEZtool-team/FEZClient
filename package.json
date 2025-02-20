@@ -1,0 +1,57 @@
+{
+  "name": "feztool",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.2",
+    "@date-io/date-fns": "^3.0.0",
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/i18n": "^8.3.1",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@pinia/nuxt": "^0.5.1",
+    "@tiptap/pm": "^2.0.0",
+    "@tiptap/starter-kit": "2.4.0",
+    "@tiptap/vue-3": "2.4.0",
+    "@types/lodash": "^4.17.12",
+    "@vueuse/core": "^10.7.2",
+    "@vueuse/nuxt": "^10.7.2",
+    "apexcharts": "3.49.1",
+    "axios": "^1.6.5",
+    "date-fns": "^3.1.0",
+    "glob": "^10.4.1",
+    "jalali-moment": "^3.3.11",
+    "lodash": "^4.17.21",
+    "lru-cache": "^10.2.2",
+    "mitt": "^3.0.1",
+    "next-auth": "4.24.7",
+    "sass": "^1.49.9",
+    "sass-loader": "^14.2.1",
+    "unplugin-icons": "^0.19.0",
+    "vite": "^5.0.10",
+    "vscode-languageclient": "^9.0.1",
+    "vue": "^3.4.3",
+    "vue-router": "^4.1.6",
+    "vue-style-loader": "^4.1.3",
+    "vue3-perfect-scrollbar": "^2.0.0",
+    "vuetify": "^3.7.3",
+    "webpack": "^5.0.0",
+    "yup": "^1.4.0"
+  },
+  "resolutions": {
+    "rollup": "4.24.0"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.223",
+    "@sidebase/nuxt-auth": "^0.6.3",
+    "nuxt": "^3.13.2"
+  }
+}

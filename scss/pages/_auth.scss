@@ -1,0 +1,17 @@
+.authentication {
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("/images/background/main-bg.jpeg");
+    filter: brightness(40%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+}

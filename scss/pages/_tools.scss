@@ -1,0 +1,11 @@
+.tool-topbar {
+  height: 100px !important;
+}
+
+.tool-content {
+  height: calc(100% - 100px) !important;
+}
+
+.tool-content-2 {
+  height: calc(100vh - 215px) !important;
+}
