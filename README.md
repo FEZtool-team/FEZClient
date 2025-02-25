@@ -57,4 +57,4 @@ We welcome contributions from the community! If you would like to contribute, pl
 
 ## Contact
 
-For questions or support, please send an Email to support@feztool.com .
+For questions or support, please send an Email to support@feztool.com ...
