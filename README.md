@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/936285754.svg)](https://doi.org/10.5281/zenodo.14923358)
 
 # FEZClient
--
+
 ![Screenshot 2025-02-25 140512](https://github.com/user-attachments/assets/ee9d585c-d7f8-4706-b246-98825cd319a7)
 
 FEZClient is a powerful and flexible tool designed to enhance the FEZTool ecosystem. This client allows users to interact with FEZTool seamlessly, providing an efficient development and production environment.
