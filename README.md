@@ -4,7 +4,7 @@
 
 ![Screenshot 2025-02-25 140512](https://github.com/user-attachments/assets/ee9d585c-d7f8-4706-b246-98825cd319a7)
 
-FEZClient is a powerful and flexible tool designed to enhance the FEZTool ecosystem. This client allows users to interact with FEZTool seamlessly, providing an efficient development and production environment.!
+FEZClient is a powerful and flexible tool designed to enhance the FEZTool ecosystem. This client allows users to interact with FEZTool seamlessly, providing an efficient development and production environment.
 
 ![Screenshot 2025-02-25 140443](https://github.com/user-attachments/assets/7e989f25-daa8-411b-9398-a1d19819c196)
 
