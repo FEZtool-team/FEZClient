@@ -15,6 +15,7 @@ const { t: $t } = useI18n();
 useHead({
   title: $t("auth.signup-fez"),
 });
+const { query } = useRoute();
 const router = useRouter();
 const notify = useSnackbarStore();
 
@@ -34,6 +35,7 @@ const signup = async () => {
     name: fullName.value,
     email: email.value,
     password: password.value,
+    ref: query.ref || undefined,
   };
   signUp(
     credentials,
@@ -180,6 +182,31 @@ const signup = async () => {
                       </span>
                     </v-btn>
                   </v-col> -->
+                  <v-col cols="12" v-if="!query.ref">
+                    <p class="z-10 position-relative">
+                      Hey there! 😊 Sign-up isn't available right now, but you
+                      can still check out FEZtool by requesting a demo. Just
+                      head over to
+                      <a
+                        class="text-primary"
+                        href="https://feztool.com"
+                        target="_blank"
+                      >
+                        Request Demo
+                      </a>
+                      and we'll get you set up! 🚀
+                    </p>
+                  </v-col>
+                  <v-col
+                    v-if="!query.ref"
+                    class="d-flex align-center position-relative z-10 py-0"
+                    cols="12"
+                  >
+                    <v-divider></v-divider>
+
+                    <span class="text-white mx-2"> {{ $t("auth.or") }} </span>
+                    <v-divider></v-divider>
+                  </v-col>
                   <v-col cols="12" class="pt-0">
                     <div class="z-10 position-relative">
                       <div class="mr-sm-auto">
