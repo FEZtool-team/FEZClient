@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue";
 const { signUp } = useAuth();
 /*-For Set Blank Layout-*/
 definePageMeta({
